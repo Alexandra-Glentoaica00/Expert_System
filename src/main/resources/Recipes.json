@@ -1,0 +1,89 @@
+{
+  "ingrediente_acceptate": {
+    "fructe": [
+      "mere",
+      "pere",
+      "prune"
+    ],
+    "legume": [
+      "cartofi",
+      "castraveti",
+      "rosii"
+    ],
+    "lactate": [
+      "branza",
+      "cascaval",
+      "lapte"
+    ],
+    "carne": [
+      "Vita",
+      "pui"
+    ],
+    "condimente": [
+      "dasdas",
+      "boia"
+    ]
+  },
+  "timp_de_preparare": [
+    30,
+    60,
+    90,
+    120,
+    240
+  ],
+  "retete": {
+
+  "cartofi": {
+    "id1": 1,
+    "timp_de_preparare": 60,
+    "numar_portii": 3,
+    "dificultate": "easy",
+    "vegetarian": "true",
+    "ingrediente": {
+      "legume": [
+        "cartofi"
+      ],
+      "fructe": [
+        "mere"
+      ],
+      "carne": [
+        "pui"
+      ],
+      "lactate": [
+        "branza"
+      ],
+      "condimente": [
+        "boia"
+      ]
+    },
+    "mod_de_preparare": "sajfsfsdfsd"
+  },
+
+    "cartofi2": {
+      "id1": 2,
+      "timp_de_preparare": 60,
+      "numar_portii": 3,
+      "dificultate": "easy",
+      "vegetarian": "true",
+      "ingrediente": {
+        "legume": [
+          "cartofi"
+        ],
+        "fructe": [
+          "mere"
+        ],
+        "carne": [
+          "pui"
+        ],
+        "lactate": [
+          "branza"
+        ],
+        "condimente": [
+          "boia"
+        ]
+      },
+      "mod_de_preparare": "sajfsfsdfsd"
+    }
+
+  }
+}
