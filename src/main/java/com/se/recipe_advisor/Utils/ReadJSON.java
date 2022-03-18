@@ -117,18 +117,6 @@ public class ReadJSON {
         }
     }
 
-  /*  public static void x(){
-        ObjectMapper mapper = new ObjectMapper();
-        try{
-            Map<?, ?> map = mapper.readValue(Paths.get("src/main/resources/Recipes.json").toFile(), Map.class);
 
-            // print map entries
-            for (Map.Entry<?, ?> entry : map.entrySet()) {
-                System.out.println(entry.getKey() + "=" + entry.getValue());
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }*/
 }
 

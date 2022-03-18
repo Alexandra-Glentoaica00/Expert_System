@@ -1,13 +1,14 @@
 package com.se.recipe_advisor.Models;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.*;
 
 @AllArgsConstructor
-@Entity
-public class Fruct {  //JPA entity class, which will be responsible for modde
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-
+@Getter
+@Setter
+public class Fruct {
     private String nume;
 }

@@ -19,6 +19,7 @@ public class FructController {
 
     @GetMapping("/fructe")
      public ResponseEntity <List<Fruct>> getFructe(){
+        readJson=new ReadJSON();
         listaFructe=readJson.convertJSONtoFructObjects();
         return new ResponseEntity<>(listaFructe, HttpStatus.OK);
 
