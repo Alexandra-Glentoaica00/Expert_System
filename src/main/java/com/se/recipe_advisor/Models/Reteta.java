@@ -1,16 +1,22 @@
 package com.se.recipe_advisor.Models;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+import java.lang.reflect.Array;
+import java.util.List;
+
+@Getter
+@Setter
 @AllArgsConstructor
-
+@NoArgsConstructor
 public class Reteta {
-    private String nume;
     private int id;
-    private int timp_preparare;
-    private int numar_portii;
-    private String dificultate;
-    private boolean vegetarian;
-    private String mod_preparare;
-    private Compozitie c1;
+    private String name;
+    private int total_time_minutes;
+    private int num_servings;
+    private List<String> instructions;
+    private List<IngredientComponents> ingredients_rawText;
 }
