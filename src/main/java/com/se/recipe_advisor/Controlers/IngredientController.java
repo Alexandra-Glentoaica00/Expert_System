@@ -1,6 +1,7 @@
 package com.se.recipe_advisor.Controlers;
 
 import com.se.recipe_advisor.Models.Ingredient;
+import com.se.recipe_advisor.Utils.CreateRules;
 import com.se.recipe_advisor.Utils.ReadJSON;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,6 +18,7 @@ public class IngredientController {
 
     private ReadJSON readJson;
     private List<Ingredient> ingredientList;
+    public List<Ingredient> selectedIngredients = new ArrayList<>();
 
     @GetMapping("/ingredients")
      public ResponseEntity <List<Ingredient>> getIngredient(){
@@ -29,9 +31,9 @@ public class IngredientController {
     @PostMapping("/selectedIngredients")
     public ResponseEntity<List<Ingredient>> createSelectedIngredients(@RequestBody List<Ingredient> _selectedIngredients) {
         try {
-            List<Ingredient> selectedIngredients = new ArrayList<>();
             selectedIngredients.addAll(_selectedIngredients);
             selectedIngredients.stream().forEach(x->System.out.println(x.getNume()));
+            CreateRules.saveIngredients(selectedIngredients);
             return new ResponseEntity<>(selectedIngredients, HttpStatus.CREATED);
         } catch (Exception e) {
             System.out.println(e.getMessage());

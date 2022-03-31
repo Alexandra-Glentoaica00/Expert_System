@@ -51,7 +51,7 @@ public class ReadJSON {
         return null;
     }
 
-    public List<Reteta> convertJSONtoRetetaObjects() {
+    public static List<Reteta> convertJSONtoRetetaObjects() {
             try {
                 ObjectMapper mapper = new ObjectMapper();
                 JsonFactory jf = new JsonFactory();

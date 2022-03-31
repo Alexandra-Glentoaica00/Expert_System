@@ -12,8 +12,8 @@ import java.util.List;
 @Setter
 @Getter
 public class Rules {
-    public List<String> ingredients;
-    public String name;
+    public List<String> ingredients;  //Lista de predicate
+    public String name; //concluzia
 }
 
 

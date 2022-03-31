@@ -9,6 +9,6 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Timp {
+public class Time {
     private int timp;
 }
