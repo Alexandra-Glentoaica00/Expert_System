@@ -1,5 +1,6 @@
 package com.se.recipe_advisor.Models;
 
+import com.se.recipe_advisor.Utils.ReadJSON;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
