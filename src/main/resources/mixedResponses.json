@@ -1402,7 +1402,7 @@
   },
   {
     "name": "15-Minute Garlic Bread Pizza",
-    "total_time_minutes": 30,
+    "total_time_minutes": 15,
     "num_servings": 8,
     "instructions": [
       "Preheat the oven to 450degreesF (230degreesC).",
@@ -1977,138 +1977,6 @@
       {
         "raw_text": "2 21/2-inch-wide ring molds",
         "ingredient_name": "ring molds"
-      }
-    ]
-  },
-  {
-    "name": "Old-Fashioned Ice Tray Chocolates",
-    "total_time_minutes": 240,
-    "num_servings": 16,
-    "instructions": [
-      "Add the cherries and whiskey to a small container. Cover and let soak for at least 1 hour, or up to 2 days.",
-      "Add the butter and cream cheese to a medium bowl. Beat with an electric hand mixer on medium speed until light and fluffy, 1-2 minutes, scraping down the sides of the bowl as needed. Sift in the powdered sugar and beat on medium-low speed to incorporate. Add the orange zest and fold with a rubber spatula until incorporated. The mixture should be stiff. Cover with plastic wrap and chill in the refrigerator for 30 minutes.",
-      "Set a medium bowl over a small pot of simmering water. Add the dark chocolate and coconut oil to the bowl and warm for 4-5 minutes, until about two thirds of the chocolate is melted. Stir to melt the chocolate completely, then remove the bowl from the heat. Let cool for 5 minutes, until slightly thickened.",
-      "Pour about half of the melted chocolate into a clean 14-cavity ice cube tray, tilting the tray to create a thin, even layer around the walls of each mold. Pour any excess chocolate back into the bowl and wipe away any excess chocolate from the sides of the tray. Freeze for 15-30 minutes, until the chocolate is set.",
-      "Remove the cherries from the whiskey and drain on paper towels to remove excess moisture.",
-      "Fill each chocolate-lined ice cube mold with 11/2 teaspoons of the orange-cream cheese filling. Use your finger to create a divot in the filling, then spoon 1/2 teaspoon of orange marmalade into the divot. Place a cherry in each divot, pressing down so the tops are below the rim of the tray.",
-      "Melt the chocolate again over simmering water if necessary, then pour over the ice cube tray, tilting to evenly distribute. Tap the tray on a flat surface to release any air bubbles and smooth the top. Freeze for 30-60 minutes, until set.",
-      "Remove the ice cube tray from the freezer and let sit at room temperature for 5 minutes to loosen the chocolates. Then, invert the tray to release the chocolates. Cut into individual chocolates and trim any messy edges with a paring knife. Serve immediately or store in the refrigerator for up to 1 week.",
-      "Enjoy!"
-    ],
-    "id": 29,
-    "ingredients": [
-      {
-        "raw_text": "14 maraschino cherries",
-        "ingredient_name": "maraschino cherry"
-      },
-      {
-        "raw_text": "2 tablespoons whiskey",
-        "ingredient_name": "whiskey"
-      },
-      {
-        "raw_text": "1/2 teaspoon unsalted butter, room temperature",
-        "ingredient_name": "unsalted butter"
-      },
-      {
-        "raw_text": "4 tablespoons cream cheese, room temperature",
-        "ingredient_name": "cream cheese"
-      },
-      {
-        "raw_text": "11/4 cups powdered sugar",
-        "ingredient_name": "powdered sugar"
-      },
-      {
-        "raw_text": "Zest of 1 orange (about 2 teaspoons)",
-        "ingredient_name": "orange"
-      },
-      {
-        "raw_text": "10 ounces dark chocolate melting wafers",
-        "ingredient_name": "dark chocolate melting wafers"
-      },
-      {
-        "raw_text": "1 teaspoon refined coconut oil",
-        "ingredient_name": "coconut oil"
-      },
-      {
-        "raw_text": "7 teaspoons orange marmalade",
-        "ingredient_name": "orange marmalade"
-      }
-    ]
-  },
-  {
-    "name": "Chocolate Mugs",
-    "total_time_minutes": 115,
-    "num_servings": 2,
-    "instructions": [
-      "Set a medium bowl over a small pot of simmering water. Add the dark chocolate to the bowl and warm for 4-5 minutes, until about two thirds of the chocolate is melted. Stir until the chocolate is completely melted, then remove the bowl from the heat. Let cool for 5 minutes, until slightly thickened. Leave the water in the saucepan.",
-      "Pour 2 tablespoons of the melted chocolate into a paper cup and swirl to coat the inside, leaving a 11/2-inch border around the top edge of the cup (it's okay if the edge isn't perfectly straight; it will be smoothed out later). Continue turning the cup to layer the chocolate and create a thicker wall. Repeat with the other cup. Freeze the cups for 30-60 minutes, until fully set.",
-      "Line a small baking sheet with parchment paper. Transfer some of the remaining melted chocolate to a small piping bag and cut a small hole about 1/4 inch from the tip. Pipe 2 1-inch long, 1/2-inch wide handles onto one side of the parchment paper, going over the shape multiple times to create a sturdy structure.",
-      "Place the ring molds on the other side of the parchment paper. Fill the molds with melted chocolate to create circular bases for the mugs. Transfer the baking sheet to the freezer until the chocolate is set, about 15 minutes.",
-      "Remove the cups from the freezer. Set a cup upside-down on a flat surface and use a paring knife to cut an 'X', in the bottom of the cup to release the chocolate. Lift the cup away (or use scissors to cut down from the lip of the cup to the top of the chocolate rim and gently peel the cup away). If the chocolate starts to get warm, return to the freezer for 5-10 minutes before proceeding.",
-      "Heat the water in the pot until steaming. Place a small metal baking sheet on top of the steaming pot to warm. Press the top edge of a chocolate cup onto the warm pan to melt the chocolate and create a smooth edge. Melt the bottom of the cup on the warm pan, then press against a circular base to adhere. Melt the edges of a handle and press against the side of the cup to adhere. Repeat to make the remaining chocolate mug. Transfer to the refrigerator to set for 30 minutes.",
-      "Fill each mug with chocolate mousse and top with raspberries and a sprig of mint.",
-      "Enjoy!"
-    ],
-    "id": 30,
-    "ingredients": [
-      {
-        "raw_text": "6 ounces dark chocolate melting wafters",
-        "ingredient_name": "dark chocolate melting wafters"
-      },
-      {
-        "raw_text": "1 batch [Chocolate Mousse] (https://tasty.co/recipe/chocolate-mousse)",
-        "ingredient_name": "Chocolate Mousse"
-      },
-      {
-        "raw_text": "Fresh raspberries, for garnish",
-        "ingredient_name": "fresh raspberry"
-      },
-      {
-        "raw_text": "2 small sprigs of fresh mint, for garnish",
-        "ingredient_name": "fresh mint"
-      },
-      {
-        "raw_text": "2 8-ounce paper cups",
-        "ingredient_name": "small paper cups"
-      },
-      {
-        "raw_text": "Piping bag",
-        "ingredient_name": "piping bag"
-      },
-      {
-        "raw_text": "2 21/2-inch-wide ring molds",
-        "ingredient_name": "ring molds"
-      }
-    ]
-  },
-  {
-    "name": "Chocolate Flowers",
-    "total_time_minutes": 60,
-    "num_servings": 1,
-    "instructions": [
-      "Line a small baking sheet with parchment paper.",
-      "Set a medium bowl over a small pot of simmering water. Add the white chocolate to the bowl and warm for 2-3 minutes, until about two thirds of the chocolate is melted. Stir to melt completely, then remove the bowl from the heat and let cool for about 10 minutes, until the temperature is between 85-90degreesF (29-32degreesC).",
-      "Dip the back of a plastic spoon in the melted chocolate to coat. Use the edge of your thumb to wipe away any excess chocolate from the edges of the spoon, then place on the prepared baking sheet, chocolate-side up. Repeat with 10 more of the spoons. To create the smaller, inner petals, dip only the top half of the remaining 3 spoons into the chocolate, wiping away the excess around the edges. Freeze the spoons for 15 minutes.",
-      "Remove the spoons from the refrigerator and repeat the dipping process to create a thicker layer of chocolate (this will make the petals sturdier and easier to handle). Freeze for another 15 minutes.",
-      "Line a 2-inch wide round, such as a small jar lid, with a circle of parchment paper.",
-      "Remove the spoons from the freezer and let thaw for about 5 minutes (this will make the chocolate easier to release). Working one at a time, gently slide the chocolate petals off of the spoons and onto the baking sheet (you may need to use your fingernail to gently release the chocolate from the spoons).",
-      "Add a dollop of melted chocolate to the center of the parchment paper circle. Arrange 5 petals around the outer edge of the lid with the narrow ends facing outwards, pressing into the melted chocolate to secure. Add another small dollop of white chocolate to the center and arrange 3 more petals on top of the first layer. Add another dollop of melted chocolate and arrange the 3 small petals around the center. Add one more small dollop of melted chocolate to the center of the petals and fill with yellow sprinkles to resemble the center of a flower. Transfer the flower to the refrigerator to set for 30 minutes.",
-      "Carefully peel the flowers away from the parchment paper and use to decorate cakes or cupcakes.",
-      "Enjoy!"
-    ],
-    "id": 31,
-    "ingredients": [
-      {
-        "raw_text": "6 ounces white chocolate melting wafers",
-        "ingredient_name": "white chocolate melting wafers"
-      },
-      {
-        "raw_text": "1 teaspoon yellow sprinkles",
-        "ingredient_name": "yellow sprinkles"
-      },
-      {
-        "raw_text": "14-28 plastic teaspoons",
-        "ingredient_name": "plastic teaspoons"
       }
     ]
   },

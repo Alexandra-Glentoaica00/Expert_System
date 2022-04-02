@@ -43,7 +43,7 @@ public class CreateRules {
             }
             Rules rules = new Rules(ingredientsList, i.getName());
             rulesList.add(rules);
-            ingredientsList = new ArrayList<>(); //nu merge .clear(), asa ca o sa cream mereu o lista noua in loc sa o golim pe cea veche
+            ingredientsList = new ArrayList<>();
         }
 
         rulesList1 = rulesList; //copiem lista locala in lista globala
