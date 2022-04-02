@@ -38,7 +38,7 @@ public class ReadJSON {
             for (Object i : jsonArray) {
                 ingredientList.add(new Ingredient((String) i));
             }
-            return ingredientList;  //lista asta este trimisa si spre front-end, dar este si lista initial-premises;
+            return ingredientList;
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();

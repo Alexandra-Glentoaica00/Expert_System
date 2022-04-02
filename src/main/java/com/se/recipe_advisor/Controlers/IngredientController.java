@@ -31,6 +31,7 @@ public class IngredientController {
     @PostMapping("/selectedIngredients")
     public ResponseEntity<List<Ingredient>> createSelectedIngredients(@RequestBody List<Ingredient> _selectedIngredients) {
         try {
+            selectedIngredients.clear();
             selectedIngredients.addAll(_selectedIngredients);
             selectedIngredients.stream().forEach(x->System.out.println(x.getNume()));
             CreateRules.saveIngredients(selectedIngredients);

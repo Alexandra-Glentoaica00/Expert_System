@@ -17,7 +17,7 @@ import java.util.List;
 @CrossOrigin(origins = "http://localhost:8080")
 @RequestMapping("/api")
 
-public class RetetaController {  //clasa ce urmeaza a fi modificata pentru a trimite spre front-end doar retele care corespund ingredientelor selectate;
+public class RetetaController {
 
     private ReadJSON readJson;
     private List<Reteta> recipeList;

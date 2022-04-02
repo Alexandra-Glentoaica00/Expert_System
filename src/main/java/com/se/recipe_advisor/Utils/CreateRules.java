@@ -17,14 +17,14 @@ import java.util.stream.Collectors;
 public class CreateRules {
 
     public static List<Rules> rulesList1 = new ArrayList<>(); //lista globala cu toate regulile
-    static List<String> selectedIngredientsString = new ArrayList<>(); //lista globala cu alegerile utilizatorului din front-end --- sub forma de String
-    static List<Reteta> RetetaList = ReadJSON.convertJSONtoRetetaObjects();
+    static List<String> selectedIngredientsString = new ArrayList<>(); //lista in care salvam ingredientele alese de utilizator in front-end
+    static List<Reteta> RetetaList = ReadJSON.convertJSONtoRetetaObjects(); //lista cu toate retetele
 
     public static void saveIngredients(List<Ingredient> selectedIngredients1) {
+        selectedIngredientsString.clear();
         selectedIngredientsString = selectedIngredients1.stream().map(x -> x.getNume()).collect(Collectors.toList());
 
         createRulesList();
-        //masinaInferenta();
         List<Reteta> recipesToFrontend = masinaInferenta();
     }
 
@@ -67,12 +67,13 @@ public class CreateRules {
             }
             size=rules.getIngredients().size();
             if(counter > size/2){
+                //Vom trimite inapoi catre utilizatori doar retetele pentru care au fost selectate anterior minim jumatate din ingrediente.
                 Optional<Reteta> retetaObj = RetetaList.stream().filter(x -> rules.getName().equals(x.getName())).findAny();
                 if(retetaObj.isPresent()){
                     reteta.add(retetaObj.get());
                 }
             }
-            System.out.println("Counter: " + counter);
+           // System.out.println("Counter: " + counter);
         }
 
         return reteta;
